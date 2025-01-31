@@ -1,22 +1,16 @@
-# TensorFlow Student Performance Prediction
+🚀 **Student Performance Prediction Using Machine Learning**
 
-## 📌 Project Overview
-This project predicts **student exam scores** using **machine learning models** including:
-- **Neural Network (TensorFlow/Keras)**
-- **Random Forest (RF)**
-- **Linear Regression (LR)**
+This project builds a **student performance prediction model** using **machine learning techniques**. The model is trained on a dataset of student exam scores and uses multiple approaches for prediction.
 
-It uses **SHAP (SHapley Additive Explanations)** for feature importance analysis.
+## 🔍 Dataset: Student Performance
+The dataset contains features related to students' academic performance, including:
+- **Study hours, parental education level, test preparation course, and more**
+- The goal is to predict students' **final exam scores**
 
----
-
-## 📂 Files in This Repository
-- **`Predict Student Performance.ipynb`** → Jupyter Notebook with model training & predictions.
-- **`Predict Student Performance.html`** → HTML version of the Jupyter Notebook.
-- **`StudentsPerformance.csv`** → Dataset used for training and testing.
-
----
-
-## ⚙️ Setup
-* For the HTML version of the basic image classification notebook, download the raw file and open it directly from your computer.
-* SHAP must be installed for the code to run properly.
+## 📚 Features of this Project
+✅ Loads and Preprocesses Student Performance Dataset  
+✅ Builds Machine Learning Models (Neural Networks, Random Forest, Linear Regression)  
+✅ Trains and Validates the Models Using TensorFlow & Scikit-Learn  
+✅ Evaluates Accuracy and Performance on Test Data  
+✅ Uses SHAP for Feature Importance Analysis  
+✅ Displays Predictions with Actual Labels  
